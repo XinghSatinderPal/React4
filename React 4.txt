@@ -1,0 +1,13 @@
+import React, { useState } from 'react';
+
+export default function App() {
+	const questions = [
+		{
+			questionText: 'What is the capital of USA?',
+			answerOptions: [
+				{ answerText: 'Bern', isCorrect: false },
+				{ answerText: 'Stockholm', isCorrect: false },
+				{ answerText: 'Paris', isCorrect: true },
+				{ answerText: 'DC', isCorrect: false },
+			],
+		},
